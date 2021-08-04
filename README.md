@@ -1,6 +1,6 @@
 # Hello World!!!
 
-JavaScript
+ Learning JavaScript
 
 <!---
 Adebayo-Usman/Adebayo-Usman is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
