@@ -1,6 +1,4 @@
-# Hello World!!!
-
- Learning JavaScript
+# Using JavaScript, CSS and HTML to design and Create a Quiz App.
 
 <!---
 Adebayo-Usman/Adebayo-Usman is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
