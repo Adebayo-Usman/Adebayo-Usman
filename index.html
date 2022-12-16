@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Quiz Game</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+		<!-- home page to start quiz -->
+		<div class="home_box custom_box">
+			<img src="images/q2.jpg" alt="artsolutions">
+			<h3>KEYBOARD LAYOUT</h3>
+			<button class="start">Start Quiz</button>
+		</div>
+		
+		<!-- question and options to select from -->
+		<div class="quiz_box custom_box hide">
+			<header class="quiz_box_header">
+				<div class="title">Keyboard Layout</div>
+				<div class="timer">
+					<div class="timer_text">Time-Left </div>	 
+					<div class="timer_sec"></div>	
+				</div>
+			</header>
+		
+			<section class="quiz_box_body " >
+				<div class="question_text">
+					<!-- <span class="question-num">1.</span>_______________is an example of a standard keyboard. -->
+				</div>
+
+				<div class= "question_options">
+					<!-- <div class="option">A. Window keyboard</div>
+					<div class="option">B. Window keyboard</div>
+					<div class="option">C. Window keyboard</div>
+					<div class="option">D. Window keyboard</div> -->
+				</div>
+				
+			<!-- Move to next or Previous question -->
+				<div class="nav_btns">
+					<!-- <button class="previous" >Previous</button  > -->
+					<button class="next">Next</button class="next">
+				</div>
+			</section>
+
+			<footer class="quiz_box_footer">
+				<div class="question_number">
+					<!-- 1 of 5 questions	 -->
+				</div>
+				<div class="date">
+					<p class="current_date"></p>
+				</div>
+			</footer>
+						
+		</div>
+	<div class="result_box custom_box hide">
+		<header>
+
+			<div class="result_title">
+				<h1>Quiz Result</h1>
+			</div> 
+
+		</header>
+		<section>
+
+			<div class="result_score">
+				
+				<table>	
+					<p>You've completed the quiz, Congratulation!!</p>
+					<tr>
+						<td>You scored </td>
+						<td><span class="total-score"></span></td>
+					</tr>
+
+					<tr>
+						<td>Pass </td>
+						<td><span class="correct"></span></td>
+					</tr>
+
+					<tr>
+						<td>Fail </td>
+						<td><span class="wrong"></span></td>
+					</tr>
+
+					<tr>
+						<td>Attempt </td>
+						<td><span class="total-attempts"></span></td>
+					</tr>
+
+					<tr>
+						<td>Total Question</td>
+						<td><span class="total-questions"></span></td>
+					</tr>
+				</table>
+			</div>
+
+			<div class="result_btns">
+				<button class="try">Try again</button>
+				<button class="exit">Exit Quiz</button>
+			</div>
+
+		</section>
+				
+
+	</div>
+	<script src="js/question.js"></script>	
+	<script src="js/index.js"></script>
+
+</body>
+</html>
